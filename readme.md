@@ -126,25 +126,6 @@ A interface de monitoramento em tempo real roda diretamente no navegador, dispen
 
 ---
 
-## 📁 Estrutura do Repositório
-
-```text
-├── index.html                               # Dashboard Web em arquivo único (HTML + Tailwind + Chart.js)
-├── README.md                                # Documentação técnica principal
-├── docs/                                    # Relatórios técnicos formais da disciplina
-│   ├── Documento_AC1_TEECII_Modelamento_RTOS.pdf
-│   └── Documento_AC2_TEECII_Modelamento_RTOS.pdf
-└── firmware/                                # Projeto completo do STM32CubeIDE
-    ├── Core/
-    │   ├── Inc/main.h                       # Definições de pinagem e protótipos
-    │   └── Src/main.c                       # Implementação das tarefas FreeRTOS e callbacks
-    ├── USB_DEVICE/
-    │   └── App/usbd_cdc_if.c                # Driver USB CDC Virtual COM Port com proteção
-    └── ERB_PowerManagement_RTOS.ioc        # Arquivo de configuração de clocks e periféricos
-```
-
----
-
 ## 🛠️ Como Compilar e Gravar o Firmware
 
 1. Abra o projeto no **STM32CubeIDE** (versão 1.14 ou superior).
