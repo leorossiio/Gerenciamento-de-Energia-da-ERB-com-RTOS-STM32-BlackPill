@@ -1,0 +1,11 @@
+../Core/Src/main.c:103:5:main	1
+../Core/Src/main.c:195:6:SystemClock_Config	3
+../Core/Src/main.c:242:13:MX_ADC1_Init	3
+../Core/Src/main.c:294:13:MX_RTC_Init	2
+../Core/Src/main.c:329:13:MX_GPIO_Init	1
+../Core/Src/main.c:365:6:HAL_GPIO_EXTI_Callback	2
+../Core/Src/main.c:382:6:StartTaskBattery	2
+../Core/Src/main.c:416:6:StartTaskPower	7
+../Core/Src/main.c:495:6:StartTaskSurge	3
+../Core/Src/main.c:555:6:HAL_TIM_PeriodElapsedCallback	2
+../Core/Src/main.c:572:6:Error_Handler	1
